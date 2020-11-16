@@ -1,0 +1,82 @@
+/* -- Google Fonts CSS commands --
+font-family: 'Acme', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Nunito', sans-serif; */
+
+/*-------------------- Header --*/
+
+header {
+    margin: 0;
+    background: url("../assets/images/GXBC Clubhouse.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    padding: 15px;
+}
+
+.gxbc-logo {
+    border-bottom-color: #ad850d;
+    max-height: 150px;
+    margin: 0px 5px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+.title-header {
+    font-family: 'Acme', sans-serif;   
+    font-weight: 100;
+    font-size: 46px;
+    margin-bottom: 5px;
+    color: #a5e6f5;
+    background-color: #030233;
+    text-shadow: 3px 2px #ad850d;
+    align-content: center;
+}
+
+.menubar-color {
+     background-color: #030233;
+     padding: 2px;
+     margin: 1px 2px 1px 2px;
+     font-size: 20px;
+     font-family: 'Acme', sans-serif;
+}
+
+.menuitem {
+    height: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color:#ad850d;
+    height: 100px;
+}
+
+.menuitem a i {
+    padding-top:15px;
+    display: block inline;
+    color: #ad850d;
+    font-size: 20px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 1px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin:0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
