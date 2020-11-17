@@ -19,7 +19,7 @@ header {
 
 .gxbc-logo {
     border-bottom-color: #ad850d;
-    max-height: 150px;
+    max-height: 100px;
     margin: 0px 5px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -40,8 +40,8 @@ header {
 
 .menubar-color {
      background-color: #030233;
-     padding: 2px;
-     margin: 1px 2px 1px 2px;
+     padding: 0px;
+     margin: 0px;
      font-size: 20px;
      font-family: 'Acme', sans-serif;
 }
@@ -77,6 +77,11 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
     margin:0;
+}
+
+.list-inline {
+    padding-left: 20px;
+    list-style: none;
 }
 
 .list-inline-item:not(:last-child) {
