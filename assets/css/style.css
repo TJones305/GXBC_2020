@@ -28,7 +28,7 @@ header {
 }
 
 .title-header {
-    font-family: 'Acme', sans-serif;   
+    font-family: 'Nunito', sans-serif;   
     font-weight: 100;
     font-size: 46px;
     margin-bottom: 5px;
@@ -48,6 +48,8 @@ header {
 
 .menuitem {
     height: 100px;
+    width: 150px;
+    margin-left: 2px;
     text-align: center;
     padding: 0;
 }
@@ -67,7 +69,7 @@ header {
 }
 
 .menuitem span {
-    display: block;
+    display: inline-block;
     width: 100%;
     padding-top: 1px;
     text-align: center;
@@ -78,5 +80,5 @@ header {
 }
 
 .list-inline-item:not(:last-child) {
-    margin-right: 0;
+    margin: 0;
 }
