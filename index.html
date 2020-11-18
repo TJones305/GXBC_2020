@@ -17,7 +17,7 @@
         <section>
             <div class="row">
                 <div class="col-12">
-                    <h1 class="title-header inline heading"><img class="inline gxbc-logo heading " src="assets/images/GXBC Badge.jpg">| Gerrard's Cross Bowls Club |<img class="inline gxbc-logo heading" src="assets/images/GXBC Badge.jpg"></h1>
+                    <h1 class="title-header inline heading"><img class="inline gxbc-logo heading " src="assets/images/GXBC Badge.jpg"> Gerrard's Cross Bowls Club <img class="inline gxbc-logo heading" src="assets/images/GXBC Badge.jpg"></h1>
                  </div>
             </div>
         </section>
@@ -26,34 +26,81 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="list-inline-item menubar-color menuitem">
-                                <a href="index.html" ><i class="fa fa-home" aria-hidden="true"></i><span>Home |</span></a>
+                                <a href="index.html" ><i class="fa fa-home" aria-hidden="true"></i><span>| Home |</span></a>
                             </li>
                             <li class="list-inline-item menubar-color menuitem">
-                                <a href="#" ><i class="fa fa-newspaper" aria-hidden="true"></i><span>News |</span></a>
+                                <a href="#" ><i class="fa fa-newspaper" aria-hidden="true"></i><span>| News |</span></a>
                             </li>
                             <li class="list-inline-item menubar-color menuitem">
-                                <a href="#"><i class="fa fa-users" aria-hidden="true"></i><span>Member's |</span></a>
+                                <a href="#"><i class="fa fa-users" aria-hidden="true"></i><span>| Member's |</span></a>
                             </li>
                             <li class="list-inline-item menubar-color menuitem">
-                                <a href="#" target="_blank" ><i class="fa fa-trophy" aria-hidden="true"></i><span>Competitions |</span></a>
+                                <a href="#" target="_blank" ><i class="fa fa-trophy" aria-hidden="true"></i><span>| Competitions |</span></a>
                             </li>
                             <li class="list-inline-item menubar-color menuitem">
-                                <a href="#" target="_blank" ><i class="fa fa-book" aria-hidden="true"></i><span>About Us  |</span></a>
+                                <a href="#" target="_blank" ><i class="fa fa-book" aria-hidden="true"></i><span>| About Us  |</span></a>
                             </li>
                             <li class="list-inline-item menubar-color menuitem">
-                                <a href="#" target="_blank" ><i class="fa fa-medal" aria-hidden="true"></i><span>Honours |</span></a>
+                                <a href="#" target="_blank" ><i class="fa fa-medal" aria-hidden="true"></i><span>| Honours |</span></a>
                             </li>
                         </ul>
                     </div>
         </div>
     </header>
 /*--- Main Content ---*/
-    <section>
+    <section ><img class="inline" src="assets/images/style.css/GXBC Clubhouse.jpg">
     
+
+
+
+
+
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
     </section>
 /*--- Footer ---*/
     <footer>
-    
+        <div class="row">
+            <div class="col-4 footer-sponsor"> 
+                <h5>Sponsors:</h5>   
+                    <ul>
+                        <li>Nunn Hayward</li>
+                        <li>B.P. Collins</li>
+                        <li>Carpetright</li>
+                        <li>Amersham Function Rooms</li>
+                        <li>Maria Malliband</li> 
+                    </ul>
+            </div>
+        <div class="col-4 footer-affiliation"> 
+                    <h5>Affiliations:</h5>   
+                    <ul>
+                        <li>Bowls England</li>
+                        <li>Buckignhamshire B.A.</li>
+                        <li>Carpetright London & Southern Counties</li>
+                    </ul>
+        </div>
+        <div class="col-4 footer-contact">
+            <div>
+                <h5>Contact Us:</h5>
+                <p><strong>Address:</strong><br> Maltman's Lane,<br> Chalfont St. Peter,<br> Gerrards Cross,<br> Buckignhamshire, SL9 8RS</p>
+                <p><strong>Phone:</strong><br>01753 883727</p>
+                <p><strong>E-mail:</strong><br> secretary@gxbc.co.uk</p>
+            </div>
+            <div class="row">
+                <h6 class="col">Find us on Facebook</h6>
+            </div>            
+        </div>
     </footer>
 </body>
 </html>
