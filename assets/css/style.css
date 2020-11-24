@@ -90,32 +90,64 @@ header {
     margin: 0;
 }
 
+/*----------------------Main Body---*/
+
+
+
+
+
+
 /*------------------------Footer --*/
-footer{
+footer {
     background-color:#030233;
     color:#ad850d;
+    
+}
+
+.footer {
+    font-family: 'Nunito', sans-serif;
 }
 
 .footer-contact{
     font-size: 10px;
+    font-weight:500;
     text-align: center;
 }
 
 .footer-sponsor{
     font-size: 10px;
+    font-weight:500;
     text-align: center;
 }
 
 .footer-affiliation{
     font-size: 10px;
+    font-weight:500;
     text-align: center;
 }
 
 h5 {
     font-size: 15px;
     text-align: center;
+    text-decoration:  solid #a5e6f5;
+
 }
 
 h6 {
     font-size: 12px;
+}
+
+.footer-sponsor img {
+    max-height: 35px;
+    max-width: 35px;
+    align-content: center;
+    margin: 5px 5px;
+
+}
+
+.footer-affiliation img{
+    max-height: 35px;
+    max-width: 35px;
+    align-content: center;
+    margin: 5px 5px;
 }
