@@ -76,6 +76,11 @@ font-family: 'Nunito', sans-serif; */
     margin:0;
 }
 
+.menucontainer {
+    padding:0;
+    margin: 0;
+    border: 0px;
+}
 .list-inline {
     padding-left: 175px;
     list-style: none;
@@ -85,6 +90,9 @@ font-family: 'Nunito', sans-serif; */
     margin: 0;
 }
 
+.col {
+    border:0px;
+}
 /*----------------------Main Body---*/
 
 .carousel {
@@ -111,20 +119,37 @@ font-family: 'Nunito', sans-serif; */
 }
 
 .club-summary {
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
     color:#030233;
     background-color:#a5e6f5;
-    padding: 0;
+    padding: 10px;
+    padding-left: 15px;
     margin: 0;
 }
 
 .club-summary h2 {
-    font-size: 30px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #946b03;
 }
 
 .club-summary h3 {
     font-size: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.club-summary h3 i {
+    margin:15px;
+    font-size: 30px;
+    color: #946b03;
+}
+
+#googleMap {
+    padding-top: 0;
+    margin-top: 0;
 }
 
 /*-----------------------------------Footer --*/
@@ -209,4 +234,12 @@ h6 {
 
 h6 i {
     margin: 5px;
+}
+
+/*----------- Container*/
+.container h2 {
+    font-family: 'Alegreya', serif;
+    color: #946b03;
+    background-color: #a5e6f5;
+    font-size: 30px;
 }
