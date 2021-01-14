@@ -38,53 +38,148 @@
                 </div>
         </div>
     </header>
-    
-        <!-- Required on this page - top right corner: button that links to myClubhouse. Remainder of top: New Member's info.
-          Middle section: Coaching/ Coaches. Bottom: Videos (media) from Youtube on bowls basics -->
-
      <section>
-        <!-- New Member's and myClubhouse button -->
-        <div>
-            <h3>Current Member's access myClubhouse by clicking button</h3>
+         <!-- Credit to Bootstrap for Button and Popovers-->
+        <div id="myClubhouse">
+            <h3>Current Member's</h3>
+            <p>access myClubhouse by clicking this button:</p>
             <a class="btn btn-primary" href="https://members.gxbc.co.uk/" target="_blank" role="button">myClubhouse</a>
-            
-            
+            <img src="assets/images/GXBC_Badge.jpg">
+        </div>
+        <div id="new_member">           
             <h2>New Member's information</h2>
             <h3>Bowls Basics</h3>
-            <p>The objective of the game of bowls in it's most basic form is for you and your teams bowls ( or woods) to be closer to the jack (the small yellow or white target ball) than your opposition.
-                For each bowl closer to the jack than your opposition, your team scores 1 point. For example, both teams have a total of 8 bowls each. Your team has 3 bowls closer than your opponent's nearest bowl to the jack, therfore your team scores 3 points.
-               There is more complexity to the game as you develop your skill and experience, but the above highlights scoring in it's simplest form.
-            </p>
-
-            <h3>Membership Prices</h3>
-            <ul>
-                <li>Social £25 <i class="fas fa-info-circle"></i></li>
-                <li>Junior £20 <i class="fas fa-info-circle"></i></li>
-                <li>Full Membership (Playing & Social) £140 <i class="fas fa-info-circle"></i></li>
-            </ul>
-            <h3>Optional Extras</h3>
-            <ul>
-                <li>Locker £ <button type="button" class="btn btn-lg btn-primary" data-toggle="popover" title="Locker" data-content="This will provide you with either a metal or wooden locker labelled with your name in the men's or ladies changing room"><i class="fas fa-info-circle"></i></button></li>
-                <li>Club Draw <i class="fas fa-info-circle"></i></li>
-            </ul>
-        
+                <p>The objective of the game of bowls in it's most basic form is for you and your teams bowls ( or woods) to be closer to the jack (the small yellow or white target ball) than your opposition.
+                    For each bowl closer to the jack than your opposition, your team scores 1 point. For example, both teams have a total of 8 bowls each. Your team has 3 bowls closer than your opponent's nearest bowl to the jack, therfore your team scores 3 points.
+                There is more complexity to the game as you develop your skill and experience, but the above highlights scoring in it's simplest form.
+                </p>
+            <div class="row">    
+                <div class="col prices">
+                    <h3>Membership Prices</h3>
+                    <ul>
+                        <li>Social £25 </li>
+                        <li>Junior (U21) £20 </li>
+                        <li>Full Membership (Playing & Social) £140 </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">    
+                <div class="col extras">
+                    <h3>Optional Extras</h3>
+                    <ul>
+                        <li>Locker £15 </li>
+                        <li>Club Draw </li>
+                    </ul> 
+                </div>
+            </div>
         </div>
      </section>
-     <section>
+     <section id="coaching">
         <!-- Coaching & Coaches -->
         <h2>Club Coaching</h2>
-        <p>The Club are proud to have a plethora of coaches to aid you in your development as a bowler whether brand new to the game or simply wanted to up your game! Seek out one of these friendly faces:</p>
+        <p>The Club are proud to have a plethora of coaches to aid you in your development as a bowler whether brand new to the game or simply wanting to up your game!</p>
+        <p>Seek out one of these friendly faces:</p>
         <!-- Insert pictures of club coaches and name-->
+        <div>
+            <img src="assets/images/Coach_DE.jpg" alt="Derek Evans" class="rounded-circle">
+            <img src="assets/images/Coach_DH.jpg" alt="David Hall" class="rounded-circle">
+            <img src="assets/images/Coach_JMc.jpg" alt="John McGunniess" class="rounded-circle">
+            <img src="assets/images/Coach_CR.jpg" alt="Chris Rowe" class="rounded-circle">
+        </div>
+        <div>
+            <img src="assets/images/Coach_HR.jpg" alt="Hugh Russell" class="rounded-circle">
+            <img src="assets/images/Coach_JS.jpeg" alt="Julie Skelly" class="rounded-circle">
+            <img src="assets/images/Coach_KS.jpg" alt="Kirk Smith" class="rounded-circle">
+            <img src="assets/images/Coach_JW.jpg" alt="Janice Welsh" class="rounded-circle">
+        </div>
      </section>
-     <section>
-        <!-- Videos on Bowls Basics-->
-        
+     
+    <section id="media">
+        <!-- Video Set 1 - Credit to Bowls Manawantu and YouTube for all videos and to Bootstrap for Card Deck and Button components-->
+        <div class="card-deck">
+            <div class="card text-white bg-info">
+                <img class="card-img-top" src="https://www.youtube.com/embed/481uONn_V8Y?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Introduction</h5>
+                <p class="card-text">This video gives a basic overview of the game of bowls.</p>
+                <a href="https://www.youtube.com/embed/481uONn_V8Y?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Play Video</a>
+                </div>
+            </div>
+            <div class="card text-white bg-info">
+                <img class="card-img-top" src="https://www.youtube.com/embed/481uONn_V8Y?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Delivery</h5>
+                <p class="card-text">Delivery Basics- explains the coaching points and set up of delivery. Delivery and Routines- shows a series of international players and their varying delivery styles and pre-delivery routines.</p>
+                <a href="https://www.youtube.com/watch?v=t5FskMtmHDw" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Delivery Basics</a>
+                <a href="https://www.youtube.com/watch?v=6YQToTRquE0" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Deliveries and Routines</a>
+                </div>
+            </div>
+            <div class="card text-white bg-info">
+                <img class="card-img-top" src="https://www.youtube.com/embed/481uONn_V8Y?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Common Faults</h5>
+                <p class="card-text">This video highlights some common faults that occur in technique.</p>
+                <a href="https://www.youtube.com/embed/dFO8q7uAfW8?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Play Video</a>
+                </div>
+            </div>
+        </div>
 
-     </section>
+            <!--Set 2-->
+        <div class="card-deck">
+            <div class="card text-white bg-primary">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">The Draw Shot</h5>
+                <p class="card-text">add content</p>
+                <a href="https://www.youtube.com/embed/D_c1uydghOc?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" target="_blank" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Play Video</a>
+                </div>
+            </div>
+            <div class="card text-white bg-primary">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Controlled Weight</h5>
+                <p class="card-text">add content</p>
+                <a href="https://www.youtube.com/embed/Xdj5YPQUY5I?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" target="_blank" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Play Video</a>
+                </div>
+            </div>
+            <div class="card text-white bg-primary">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Run Shot</h5>
+                <p class="card-text">add content</p>
+                <a href="https://www.youtube.com/embed/NGV-n0ApZ1k?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" target="_blank" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Play Video</a>
+                </div>
+            </div>
+        </div>
 
-
-
-    
+            <!--Set 3-->
+        <div class="card-deck">
+            <div class="card text-white bg-info">
+                <img class="card-img-top" src="https://www.youtube.com/embed/481uONn_V8Y?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Driving (aka Firing)</h5>
+                <p class="card-text">add content</p>
+                <a href="https://www.youtube.com/embed/-iOB115EvxY?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Play Video</a>
+                </div>
+            </div>
+            <div class="card text-white bg-info">
+                <img class="card-img-top" src="https://www.youtube.com/embed/481uONn_V8Y?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Drills</h5>
+                <p class="card-text">add content</p>
+                <a href="https://www.youtube.com/embed/AiO_D84VjNE?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Play Video</a>
+                </div>
+            </div>
+            <div class="card text-white bg-info">
+                <img class="card-img-top" src="https://www.youtube.com/embed/481uONn_V8Y?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Conclusion</h5>
+                <p class="card-text">add content</p>
+                <a href="https://www.youtube.com/embed/PA2c21VNywI?list=PLfRKPuEJMqdmIxpMpfXGIwt-xHOLT1gSd" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Play Video</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer id="footer-container">
         <div class="row">
             <div class="col-md-4-sm-2 footer-sponsor footer"> 
@@ -129,4 +224,5 @@
     </div>
 </footer>
 </body>
+
 </html>
