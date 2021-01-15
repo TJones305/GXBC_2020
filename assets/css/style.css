@@ -9,10 +9,10 @@ font-family: 'Nunito', sans-serif; */
 }
 
 .gxbc-logo {
-    max-height: 100px;
-    max-width: 100px;
-    margin-left: 20px;
-    margin-right:20px;
+    max-height: 125px;
+    max-width: 125px;
+    margin-left: 10px;
+    margin-right:10px;
     padding-left: 5px 20px;
     padding-right: 5px 20px;
     transition: all .5s ease-in-out;
@@ -94,7 +94,9 @@ font-family: 'Nunito', sans-serif; */
     border:0px;
 }
 /*----------------------index.html---*/
-
+body {
+    background-color: #030233;
+}
 .carousel {
   margin-bottom: 0;
   margin-top: 0;
@@ -106,6 +108,9 @@ font-family: 'Nunito', sans-serif; */
 
 .carousel-item {
     height:30rem;
+    width:70rem;
+    margin-left: 70px;
+    background-color: #030233;
 }
 
 .carousel-item > img {
@@ -125,20 +130,20 @@ font-family: 'Nunito', sans-serif; */
     background-color:#a5e6f5;
     padding: 10px;
     padding-left: 15px;
-    margin: 0;
+    margin: 10px 10px;
 }
 
 .club-summary h2 {
     font-size: 35px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #946b03;
 }
 
 .club-summary h3 {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 0;
     padding-bottom: 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .club-summary h3 i {
@@ -245,7 +250,7 @@ h6 i {
     font-size: 20px;
     text-align: center;
 }
-
+    
 .container-key h2 i {
     margin: 5px;
     padding-left: 3px;
@@ -273,7 +278,7 @@ h6 i {
 /*----------- members.html----*/
 #myClubhouse {
     font-family: 'Nunito', sans-serif;
-    height: 450px;
+    height: 550px;
     width: 250px;
     right: 0px;
     float: right;
@@ -285,31 +290,33 @@ h6 i {
 }
 
 #myClubhouse h3{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
+    margin-top: 30px;
 }
 
 #myClubhouse .btn{
     color:#a5e6f5;
     border-color: #ad850d;
     font-size:xx-large;
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-top: 30px;
 }
 
 #myClubhouse img {
     height: 150px;
     width: 150px;
-    margin: 50px 45px;
+    margin: 60px 45px;
     
 }
 
 #new_member {
     font-family: 'Nunito', sans-serif;
-    height: 400px;
+    height: 500px;
     width: 1100px;
     left: 1px;
     display:block;
-    font-size: 20px;
+    font-size: 15px;
     padding:2px;
     background-color:#a5e6f5;
     color:#946b03;
@@ -319,14 +326,25 @@ h6 i {
 #new_member h2 {
 display: block;
 font-weight: bolder;
+margin: 8px 8px;
+}
+#new_member h3{
+    margin: 20px 15px 5px 15px;
+}
+
+#new_member p {
+    width:900px;
+    margin: 3px 10px;
 }
 
 .prices{
     left: 80px;
+    margin: 30px 10px;
 }
 
 .extras {
     left: 140px;
+    margin: 5px 10px;
 }
 
 #new_member .row{
@@ -334,18 +352,65 @@ font-weight: bolder;
 }
 #coaching {
     font-family: 'Nunito', sans-serif;
-    height: 400px;
+    height: 450px;
     width: 100%;
     display: block;
     background-color: #030233;
     color: #a5e6f5;
 }
 
+.coach-summary {
+    width: 950px;
+    margin: 10px 5px;
+}
+
 #coaching img {
     width:125px;
     height: 125px;
-    align-content: center;
+    margin: 10px 40px;
 
+}
+
+#coaching div {
+    display: inline;
+    margin: 0px 40px;
+}
+
+
+.coach-set {
+    position: relative;
+    margin:0px;
+}
+
+.coach-set-two {
+    position: relative;
+    margin: 0px;
+}
+
+.text-overlay {
+  position:relative;  
+  height: 45px;
+  width: 45px;
+}
+
+.coach-name {
+  display:inline-flex;
+  position: absolute;
+  margin:0;
+  font-family: inherit;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+
+  transition: opacity .2s, visibility .2s;
+}
+
+.text-overlay:hover .coach-name {
+  margin: 0px;
+  visibility: visible;
+  opacity: 1;
 }
 
 .card-tile {
@@ -358,8 +423,8 @@ font-weight: bolder;
 
 .btn {
     font-family: 'Nunito', sans-serif;
+    border-color: #ad850d;
 }
-
 
 
 
