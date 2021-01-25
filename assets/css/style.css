@@ -268,7 +268,7 @@ h6 i {
 .container-key h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: bolder;
-    color: #946b03;
+    color: #030233;
     background-color: #a5e6f5;
     font-size: 20px;
     text-align: center;
@@ -277,6 +277,8 @@ h6 i {
 .container-key h2 i {
     margin: 5px;
     padding-left: 3px;
+    color: #ad850d;
+    font-weight: bold;
 }
 
 .container {
@@ -288,28 +290,67 @@ h6 i {
 .container-news {
     font-family: 'Nunito', sans-serif;
     border-style:solid;
-    border-color: #030233;
-    border-width: 20px 30px 20px 30px;
+    border-color: #946b03;
+    margin: 20px 30px 20px 30px;
     max-width: 100%;
     max-height: 20%;
-    color: #946b03; 
+    color: #030233; 
     background-color: #a5e6f5;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+.container-news i{
+margin: 5px 10px 5px 10px;
+font-weight: bold;
+color: #946b03;
+}
+
+.container-news h2{
+margin: 10px;
+font-weight: bolder;
+text-decoration: underline;
+}
+
+.container-news h3{
+margin: 10px;
+padding-left: 30px;
+color: #946b03;
+max-width: 80%;
+}
+.container-news p{
+font-size: 20px;
+margin: 10px;
+padding-left: 30px;
+max-width: 70%;
+display: inline-block;
+}
+.container-news img{
+display: inline-flex;
+position: relative;
+max-width: 20%;
+max-height: 200px;
+vertical-align: top;
+border-radius: 50%;
+}
+
+.bucks {
+    margin-left: 30px;
+}
+
 /*----------- members.html----*/
 #myClubhouse {
     font-family: 'Nunito', sans-serif;
-    height: 550px;
+    height: 500px;
     width: 250px;
-    right: 0px;
+    right:15px;
     float: right;
     position: absolute;
     font-size: 20px;
-    padding-left:5px;
     background-color:#030233;
     color:#ad850d;
+    border-color: #ad850d;
+    border-style: solid;
 }
 
 #myClubhouse h3{
@@ -324,25 +365,25 @@ h6 i {
     background-color: #a5e6f5;
     border-color: #ad850d;
     font-size:xx-large;
-    margin-left: 10px;
     margin-top: 30px;
 }
 
 #myClubhouse img {
-    height: 150px;
-    width: 150px;
-    margin: 60px 45px;
+    height: 200px;
+    width: 200px;
+    margin: 50px 20px;
     
 }
 
 #new_member {
     font-family: 'Nunito', sans-serif;
     height: 500px;
-    width: 1100px;
-    left: 1px;
+    width: 1050px;
+    left: 20px;
     display:block;
     font-size: 18px;
     padding:2px;
+    margin-left: 15px;
     background-color:#a5e6f5;
     color:#030233;
 }
@@ -364,12 +405,12 @@ margin: 5px 8px;
 
 .prices{
     left: 80px;
-    margin: 30px 10px;
+    margin: 10px 10px;
 }
 
 .extras {
     left: 180px;
-    margin: 5px 10px;
+    margin: 10px 10px;
 }
 
 #new_member .row{
@@ -379,25 +420,26 @@ margin: 5px 8px;
     font-family: 'Nunito', sans-serif;
     height: 450px;
     width: 100%;
+    margin-left: 15px;;
     display: block;
     background-color: #030233;
     color: #a5e6f5;
 }
 
 #coaching h2 {
-    margin: 20px 5px;
+    margin: 20px 5px 5px 5px;
 }
 
 .coach-summary {
     width: 950px;
-    margin: 40px 5px;
+    margin: 20px 5px;
     left: 40px;
 }
 
 #coaching img {
     width:125px;
     height: 125px;
-    margin: 5px 40px;
+    margin: 10px 40px;
 
 }
 
@@ -551,7 +593,9 @@ margin: 5px 8px;
 
     /*--- news ---*/
 
-
+    .bucks {
+    margin-left: 30px;
+    }
 
     /*--- members ---*/
     #myClubhouse h3 {
@@ -585,8 +629,12 @@ margin: 5px 8px;
     }
 
     .carousel-item {
-        height: 40rem;
+        height: 32rem;
         width: 100%;
+    }
+
+    .carousel-item img {
+        max-height: 550px;
     }
 
     .carousel-inner {
@@ -656,7 +704,9 @@ margin: 5px 8px;
     }
 
     /*--- news ---*/
-
+    .bucks {
+    margin-left: 0px;
+    }
 
 
     /*--- members ---*/
@@ -664,6 +714,8 @@ margin: 5px 8px;
         margin:0px;
         padding:0px;
         text-align: center;
+        height: 600px;
+    
     }
     #myClubhouse p {       
         margin-bottom: 40px;
@@ -671,8 +723,8 @@ margin: 5px 8px;
     }
 
     #myClubhouse img {
-        margin-top: 140px;
-        margin-left: 25px;
+        margin-top: 120px;
+        margin-left: 20px;
         height:200px;
         width: 210px;
     }
@@ -761,6 +813,11 @@ margin: 5px 8px;
         width: 100%;
     }
 
+    .carousel-item img {
+        max-width: 100%;
+        max-height: 400px;
+    }
+
     .carousel-inner {
         height: 10%;
     }
@@ -826,25 +883,38 @@ margin: 5px 8px;
 
     /*--- news ---*/
 
+    .bucks {
+    margin-left: 0px;
+    }
 
+    .container-news h3{
+        max-width: 60%;
+    }
 
     /*--- members ---*/
+    #myClubhouse {
+        height:550px;
+        margin:0px;
+        padding: 0px;
+        right:0px;
+    }
+
     #myClubhouse h3 {
-        margin-left: 35px;
+        margin-left: 5px;
     }
 
     #myClubhouse p {
-        margin-left: 35px;
+        margin-left: 5px;
     }
 
     #myClubhouse .btn {
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 5px;
     }
 
     #myClubhouse img {
         margin-top: 70px;
-        margin-left: 35px;
+        margin-left: 20px;
     }
 
     #new_member {
@@ -929,6 +999,11 @@ margin: 5px 8px;
         width: 100%;
     }
 
+    .carousel-item img {
+        max-width: 100%;
+        max-height: 500px;
+    }
+
     .carousel-inner {
         height: 10%;
     }
@@ -994,21 +1069,38 @@ margin: 5px 8px;
     }
 
     /*--- news ---*/
+    .bucks {
+    margin-left: 0px;
+    }
 
-
+     .container-news h3{
+        max-width: 60%;
+    }
 
     /*--- members ---*/
     #myClubhouse h3 {
-        margin-left: 10px;
+        margin: 15px 5px 30px 5px;
+        padding: 0px;
     }
 
     #myClubhouse p {
-        margin-left: 10px;
+        margin: 20px 5px 30px 5px;
+        padding: 0px;
     }
 
+    #myClubhouse .btn {
+        margin: 20px 15px 20px 5px;
+    }
+
+    #myClubhouse img{
+        margin: 50px 5px 10px 5px;
+        padding: 0px;
+    }
+
+
     #new_member {
-        width: 750px;
-        height: 700px;
+        width: 725px;
+        height: 750px;
         padding: 10px 0px;
         margin-top: 10px;
     }
@@ -1018,7 +1110,7 @@ margin: 5px 8px;
     }
 
     #new_member p {
-        width: 490px;
+        width: 460px;
     }
 
     .prices {
@@ -1085,8 +1177,13 @@ margin: 5px 8px;
 }
 
     .carousel-item {
-        height: 25rem;
+        height: 10rem;
         width: 100%;
+    }
+
+    .carousel-item img {
+        max-width: 100%;
+        max-height: 200px;
     }
 
     .carousel-inner {
@@ -1167,14 +1264,16 @@ margin: 5px 8px;
 
     /*--- news ---*/
 
-
+    .bucks {
+    margin-left: 0px;
+    }
 
     /*--- members ---*/
     #myClubhouse {
         display: block;
         text-align:left;
-        height: 125px;
-        width:100px;
+        height: 120px;
+        width:105px;
 
     }
     #myClubhouse .btn {
@@ -1186,10 +1285,12 @@ margin: 5px 8px;
         font-weight: bolder;
         margin:0px;
         padding: 0px;
+        right: 1px;
     }
 
      #myClubhouse h3 {
         font-size: 18px;
+        margin-bottom: 10px;
     }
 
     #myClubhouse p {
@@ -1221,6 +1322,7 @@ margin: 5px 8px;
         margin:15px 0px;
         padding:0px;
         left: 0px;
+         width:300px
     }
 
     .extras {
