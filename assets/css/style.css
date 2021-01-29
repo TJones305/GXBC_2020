@@ -123,6 +123,11 @@ body {
     background-color: #030233;
 }
 
+.carousel-item img {
+    height: 475px;
+    margin-left: 130px;
+}
+
 .carousel-item > img {
   position: relative;
   top: 50%;
@@ -133,10 +138,6 @@ body {
   margin: 0 auto;
 }
 
-.carousel-item img {
-    height: 475px;
-    margin-left: 130px;
-}
 
 .club-summary {
     font-family: 'Nunito', sans-serif;
@@ -545,6 +546,17 @@ margin: 5px 8px;
     .list-inline {
         padding-left: 200px;
     }
+
+    .carousel-item {
+    height:30rem;
+    width: 80%;
+    background-color: #030233;
+}
+
+    .carousel-item img {
+    height: 475px;
+    margin-left: 130px;
+}
 
     h4 {
         font-size: 20px;
