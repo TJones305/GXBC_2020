@@ -13,12 +13,10 @@
     max-width: 125px;
     margin-left: 10px;
     margin-right:10px;
-    padding-left: 5px 20px;
-    padding-right: 5px 20px;
-    border-radius: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25%;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 
 }
 
@@ -63,7 +61,7 @@
 
 .menuitem a i {
     padding-top: 5px;
-    display: block inline;
+    display: block;
     color: #ad850d;
     font-size: 18px;
 }
@@ -90,11 +88,13 @@
     margin: 0;
     border: 0px;
 }
+
+/*moves the menubar location*/
 .list-inline {
     padding-left: 275px;
     margin: 0px;
     list-style: none;
-} /*moves the menubar location*/
+} 
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -103,6 +103,7 @@
 .col {
     border:0px;
 }
+
 /*----------------------index.html---*/
 body {
     background-color: #030233;
@@ -117,8 +118,8 @@ body {
 }
 
 .carousel-item {
-    height:35rem;
-    widows: 80%;;
+    height:30rem;
+    width: 80%;
     background-color: #030233;
 }
 
@@ -130,6 +131,11 @@ body {
   min-width: 100%;
   height: 40rem;
   margin: 0 auto;
+}
+
+.carousel-item img {
+    height: 475px;
+    margin-left: 130px;
 }
 
 .club-summary {
@@ -963,7 +969,7 @@ margin: 5px 8px;
     }
 
     .coach-summary {
-    width :585x;
+    width :585px;
     margin-left: 25px;
     font-size: 20px;
     margin: 10px 2px 5px 25px;
@@ -1165,7 +1171,6 @@ margin: 5px 8px;
 
 
 }
-
 
 @media (max-width: 660px) {
  .gxbc-logo {
@@ -1379,8 +1384,8 @@ margin: 5px 8px;
     }
 
     .text-overlay {
-        position:block;
-        display:left;
+        position:left;
+        display:block;
         margin:0px;
         padding:0px;
     }
@@ -1625,8 +1630,8 @@ margin: 5px 8px;
     }
 
     .text-overlay {
-        position:block;
-        display:left;
+        position:left;
+        display:block;
         margin:0px;
         padding:0px;
     }
@@ -1871,8 +1876,8 @@ margin: 5px 8px;
     }
 
     .text-overlay {
-        position:block;
-        display:left;
+        position:left;
+        display:block;
         margin:0px;
         padding:0px;
     }
@@ -2117,8 +2122,8 @@ margin: 5px 8px;
     }
 
     .text-overlay {
-        position:block;
-        display:left;
+        position:left;
+        display:block;
         margin:0px;
         padding:0px;
     }
