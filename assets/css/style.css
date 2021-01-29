@@ -350,8 +350,6 @@ border-radius: 50%;
 
 .bucks {
     margin-left: 30px;
-    width:100px;
-    height: 200px;
 }
 
 /*----------- members.html----*/
@@ -476,6 +474,7 @@ margin: 5px 8px;
     margin: 0px;
 }
 
+/*--- credit to banzomaikaka (solution comment on https://www.xspdf.com/help/50382383.html) for text overlay and hover code ---*/
 .text-overlay {
   position:relative;  
   height: 45px;
@@ -668,6 +667,7 @@ margin: 5px 8px;
     .carousel-item {
         height: 32rem;
         width: 100%;
+        margin: 0px;
     }
 
     .carousel-item img {
