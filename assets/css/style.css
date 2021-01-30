@@ -119,20 +119,20 @@ body {
 }
 
 .carousel-item {
-    height:30rem;
+    height:35rem;
     width: 75%;
     background-color: #030233;
-    margin-left: 30px;
     }
 
     .carousel-item img {
     height: 450px;
-    margin-left: 130px;
+    margin-left: 12.5%;
     }
 
     .green_bowlers img {
-        height: 525px;
+        height: 550px;
         width: 60%;
+        margin-left:12.5%;
     }
 
 .carousel-item > img {
@@ -251,6 +251,7 @@ h6 {
     width: 60px;
     margin: 3px 5px;
     display: inline;
+    border-radius: 25%;
 }
 
 .footer-affiliation img{
@@ -1049,10 +1050,12 @@ margin: 5px 8px;
 
     .carousel-item img {
         max-width: 100%;
-        max-height: 500px;
-        margin:1px 0px;
+        height: 550px;
     }
 
+    .bucks img {
+        height: 650px;
+    }
     .carousel-inner {
         height: 10%;
     }
@@ -1090,7 +1093,7 @@ margin: 5px 8px;
     }
 
     .footer-affiliation {
-        margin: 0px 7px;
+        margin: 0px 25px;
         width: 270px;
     }
 
@@ -1203,8 +1206,6 @@ margin: 5px 8px;
     .card {
         width: 245px
     }
-
-
 }
 
 @media (max-width: 660px) {
@@ -1464,10 +1465,13 @@ margin: 5px 8px;
 
     .carousel-item img {
         max-width: 100%;
-        max-height: 250px;
+        height: 250px;
         margin:1px 0px;
     }
 
+    .leamington img{
+        height: 200px;
+    }
     .carousel-inner {
         height: 10%;
     }
@@ -1490,7 +1494,7 @@ margin: 5px 8px;
 
     .footer-sponsor {
         margin: 0px 20px;
-        padding-left: 70px;
+        padding-left: 50px;
         width: auto;
     }
 
@@ -1510,7 +1514,7 @@ margin: 5px 8px;
 
     .footer-affiliation {
         margin: 0px 20px;
-        padding: 10px 70px;
+        padding: 10px 50px;
         width: auto;
     }
 
@@ -1537,7 +1541,7 @@ margin: 5px 8px;
     .footer-contact {
         margin: 0px 15px;
         padding: 0px;
-        padding-left:60px;
+        padding-left:40px;
         display: inline;
         text-align: left;
     }
@@ -1552,7 +1556,7 @@ margin: 5px 8px;
 
     .footer-contact h6{
         margin: 0px 15px;
-        padding-left: 20px;
+        padding-left: 50px;
     }
     /*--- news ---*/
 
@@ -1598,7 +1602,7 @@ margin: 5px 8px;
 
     #new_member {
         width: 395px;
-        height: 1050px;
+        height: 1100px;
         padding: 0px 0px;
         margin: 10px 0px 0px 0px;
     }
