@@ -33,13 +33,13 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 
 ### Wireframes 
 - Home Page Wireframe
-![Gerrards Cross Bowls Landing Page](/assets/images/ "Gerrards Cross Landing Page")
+![Gerrards Cross Bowls Landing Page](/assets/images/rm/ "Gerrards Cross Landing Page")
 
 - News Page Wireframe
-![Gerrards Cross Bowls Landing Page](/assets/images/ "Gerrards Cross Landing Page")
+![Gerrards Cross Bowls Landing Page](/assets/images/rm/ "Gerrards Cross Landing Page")
 
 - Members Page Wireframe
-![Gerrards Cross Bowls Landing Page](/assets/images/ "Gerrards Cross Landing Page")
+![Gerrards Cross Bowls Landing Page](/assets/images/rm/ "Gerrards Cross Landing Page")
 ### Features
 - Responsive on modern device sizes (iPhone 6/7/8 (potrait) X/XR (all oreintations), iPad, small and large laptops)
 - Interactive elements (carousel, Google Maps, hover functionality on coach pictures and the GXBC logo in the header)
