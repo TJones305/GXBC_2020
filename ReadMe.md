@@ -33,13 +33,29 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 
 ### Wireframes 
 - Home Page Wireframe
-![Gerrards Cross Bowls Landing Page](/assets/images/rm/ "Gerrards Cross Landing Page")
+1. Desktop
+![Wireframe Index Desktop](/assets/images/rm/wireframe-index-desktop.bmpr "Wireframe Index Desktop")
+2. Tablet
+![Wireframe Index Tablet](/assets/images/rm/wireframe-index-tablet.bmpr "Wireframe Index Tablet")
+3. Mobile
+![Wireframe Index Mobile](/assets/images/rm/wireframe-index-mobile.bmpr "Wireframe Index Mobile")
 
 - News Page Wireframe
-![Gerrards Cross Bowls Landing Page](/assets/images/rm/ "Gerrards Cross Landing Page")
+1. Desktop
+![Wireframe News Desktop](/assets/images/rm/wireframe-news-desktop.bmpr "Wireframe News Desktop")
+2. Tablet
+![Wireframe News Tablet](/assets/images/rm/wireframe-news-tablet.bmpr "Wireframe News Tablet")
+3. Mobile
+![Wireframe News Mobile](/assets/images/rm/wireframe-news-mobile.bmpr "Wireframe News Mobile")
 
 - Members Page Wireframe
-![Gerrards Cross Bowls Landing Page](/assets/images/rm/ "Gerrards Cross Landing Page")
+1. Desktop
+![Wireframe Members Desktop](/assets/images/rm/wireframe-members-desktop.bmpr "Wireframe Members Desktop")
+2. Tablet
+![Wireframe Members Tablet](/assets/images/rm/wireframe-members-tablet.bmpr "Wireframe Members Tablet")
+3. Mobile
+![Wireframe Members Mobile](/assets/images/rm/wireframe-members-mobile.bmpr "Wireframe Members Mobile")
+
 ### Features
 - Responsive on modern device sizes (iPhone 6/7/8 (potrait) X/XR (all oreintations), iPad, small and large laptops)
 - Interactive elements (carousel, Google Maps, hover functionality on coach pictures and the GXBC logo in the header)
@@ -75,16 +91,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### W3C Markup Validator 
 ![Markup Validator Report](/assets/images/rm/markup-report.png "Markup Validator")
-	Results of the Markup indicated only errors relating to alternative text not added on picture sources.
-	Most of these are highlighted in the footer where text already accompanies the picture and therefore is not required for the site to work.
-	Another area highlighted is the logo in the header where it is accompanied by the club name in the title and again is not required fo the site to work. 
-	The images in the news section were also highlighted and this has now been remedied.*** 
 
 ### W3C CSS Validator  
 ![CSS Validator Report](/assets/images/rm/css-report.png "CSS Validator")
-	Results of CSS indicator highlighted 13 errors and 2 warnings. 
-	All errors have been now been amended.
-	The warnings indicated unknown vendor extensions and it was decided to removed these.***
+	The result of the CSS validator highlighted 2 errors, both of these errors are associated with Bootstrap's CDN. As a result the 
 
 ### Lighthouse 
 ![Lighthouse Report](/assets/images/rm/lighthouse-report.png "Lighthouse Report")
@@ -199,7 +209,7 @@ Each affiliation link opens in a new tab.
 ![Gerrards Cross Bowls affiliations](assets/images/rm/affiliations-lscba.png "Gerrards Cross London and Southern Counties Bowls Association")
 
 ## ** Further Testing **
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers. 
+- The Website was tested on Google Chrome, Microsoft Edge and Safari browsers. 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPad Air & iPhoneX. other devices were tested through the inspect web developer tools.
 
 ## ** Known Bugs ** 
@@ -240,20 +250,18 @@ Cloning into CI-Clone... remote: Counting objects: 10, done. remote: Compressing
 
 - MDN Web Docs : For Pattern Validation code. Code was modified to better fit my needs.
 
-- Content The majority content was written by the developer. Acknowledgements for small sections of code at bottom of file.
-
-- Psychological properties of colours text in the README.md was found here
-
+- Content: All content was written by the developer. For a small section of code (hover fucitionality) there is credit given in the acknowledgements section.
 
 #### Media Images came from a variety of sources. 
 Credit goes to the following:
 
-- Gerrards Cross Bowls Club - Carousel and coach pictures
-- Buckinghamshire Bowls Association - footer and news pages
-- Bowls England- footer and news pages
+- Gerrards Cross Bowls Club - pictures for carousel and coaches
+- Buckinghamshire Bowls Association - logo on footer and news pages
+- Bowls England- logo on footer and news pages
 - Liberal Democrats - COVID-19 safety picture on news page.
 
-#### Card Deck images can be found as follows:
+
+#### Card Deck images can be found at the following:
 - Introduction - <https://ied.eu/project-updates/beginning-critical-fo-in-company/>
 - Delivery - <http://www.elthambowlingclub.co.uk/shared/attachments.asp?f=d61771fd%2D3929%2D4ca%2D8e05%2D26c61e66cc0f%2Epdf&o=Bowls%5Fbiomechanics%2D%2D%2DRob%2DJudson%2Epdf>
 - Common Faults - <https://www.shareicon.net/fault-problem-error-cancel-exit-danger-alert-107468>
@@ -280,8 +288,8 @@ Credit goes to the video creators
 - banzomaikaka for hover functionality code on the coaching section (solution comment on https://www.xspdf.com/help/50382383.html).     
          
 ## > Future Additions:
-Due to  unforseen outside influences I found myself scaling my initial six page plan down to three. I have plans to add these in the future, however I felt that they weren't paramount to the site meeting it's initial purpose.
-Below is the code I had constructed for the icons to these pages in preparation:
+1. I have plans to add pages in the future, however I felt that they weren't paramount to the site meeting it's initial purpose.
+Below is the code I had constructed for the icons to these pages in preparation should I have had the time to do another page:
 
         <li class="list-inline-item menubar-color menuitem">
         <a href="competition.html"><i class="fa fa-trophy" aria-hidden="true"></i><span>| Play Bowls |</span></a>
@@ -293,7 +301,7 @@ Below is the code I had constructed for the icons to these pages in preparation:
         <a href="#"><i class="fa fa-medal" aria-hidden="true"></i><span>| Honours |</span></a>
         </li>
 
-Responsive Design for devices at approx.550px and at 280px width will need to be addressed in the future.
+2. Responsive Design for devices at approx.550px and at 280px width will need to be addressed in the future.
 
 ### Other Functionality for future update:
 - Live Score function 
