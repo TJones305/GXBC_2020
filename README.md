@@ -1,9 +1,10 @@
-Gerrards Cross Bowls Club Website
-###  A link to site is here: [Gerrards Cross Bowls Club](https://tjones305.github.io/GXBC_2020/) 
+# Gerrards Cross Bowls Club Website
 
-This is the new main website for Gerrards Cross Bowls Club. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential new members be they youthful or of the elder generation.
+####  A link to site is here: [Gerrards Cross Bowls Club](https://tjones305.github.io/GXBC_2020/) 
 
-> User Experience (UX) User stories
+ **This is the new main website for Gerrards Cross Bowls Club. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential new members be they youthful or of the elder generation.**
+
+> ### User Experience (UX) User stories
 
 ### First Time Visitor Goals 
 - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Gerrards Cross Bowls Club. 
@@ -33,6 +34,7 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 
 ### Wireframes 
 - Home Page Wireframe
+
 1. Desktop
 
 ![Wireframe Index Desktop](/assets/images/rm/wireframe-index-desktop.bmpr "Wireframe Index Desktop")
@@ -46,6 +48,7 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 ![Wireframe Index Mobile](/assets/images/rm/wireframe-index-mobile.bmpr "Wireframe Index Mobile")
 
 - News Page Wireframe
+
 1. Desktop
 
 ![Wireframe News Desktop](/assets/images/rm/wireframe-news-desktop.bmpr "Wireframe News Desktop")
@@ -59,6 +62,7 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 ![Wireframe News Mobile](/assets/images/rm/wireframe-news-mobile.bmpr "Wireframe News Mobile")
 
 - Members Page Wireframe
+
 1. Desktop
 
 ![Wireframe Members Desktop](/assets/images/rm/wireframe-members-desktop.bmpr "Wireframe Members Desktop")
@@ -75,7 +79,7 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 - Responsive on modern device sizes (iPhone 6/7/8 (potrait) X/XR (all oreintations), iPad, small and large laptops)
 - Interactive elements (carousel, Google Maps, hover functionality on coach pictures and the GXBC logo in the header)
 
-> Technologies Used 
+> ## Technologies Used 
 
 ### Languages Used 
 HTML5 
@@ -101,7 +105,7 @@ CSS3
 
 - Balsamiq: Balsamiq was used to create the wireframes during the design process. 
 
->  Testing 
+> ### Testing 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ### W3C Markup Validator
@@ -117,7 +121,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ![Lighthouse Report](/assets/images/rm/lighthouse-report.png "Lighthouse Report")
 
-> Testing User Stories from User Experience (UX) Section
+> ## Testing User Stories from User Experience (UX) Section
 
 ##  First Time Visitor Goals  
 - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Gerrards Cross Bowls Club. 
@@ -267,7 +271,7 @@ Each affiliation link opens in a new tab:
 ##  Known Bugs 
 On mobile devices with screen width of 280 pixels the current members button slightly covers over the h2 element as the screen squashes together.
 
->  Deployment 
+> ## Deployment 
 
 ### GitHub Pages  
 The project was deployed to GitHub Pages using the following steps...
@@ -296,7 +300,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 Cloning into CI-Clone... remote: Counting objects: 10, done. remote: Compressing objects: 100% (8/8), done. remove: Total 10 (delta 1), reused 10 (delta 1) Unpacking objects: 100% (10/10), done. Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 
-> Credits  
+> ### Credits  
 
 - Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
@@ -330,7 +334,7 @@ Credit goes to the video creators:
 - Bowls Manawantu 
 - Canadian Bowls Association
 
-> Acknowledgements 
+> ## Acknowledgements 
 - My Mentor Gerry McBride for continuous useful feedback.
 
 - Student support at Code Institute for their helpful advice and guidance.
@@ -338,8 +342,12 @@ Credit goes to the video creators:
 - WS3 Schools for assistance in applying Google Maps.
 
 - banzomaikaka for hover functionality code on the coaching section (solution comment on https://www.xspdf.com/help/50382383.html).     
-         
-> Future Additions:
+
+> ### Limitations:
+The developer only had access to a laptop 1366px pixel width, therefore larger screen sizes may display pages differently to how they are intented.
+
+
+> ### Future Additions:
 1. I have plans to add pages in the future, however I felt that they weren't paramount to the site meeting it's initial purpose.
 Below is the code I had constructed for the icons to these pages in preparation should I have had the time to do another page:
 
