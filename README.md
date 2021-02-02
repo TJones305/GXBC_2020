@@ -76,7 +76,7 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 ![Wireframe Members Mobile](/assets/images/rm/wireframe-members-mobile.bmpr "Wireframe Members Mobile")
 
 ### Features
-- Responsive on modern device sizes (iPhone 6/7/8 (potrait) X/XR (all oreintations), iPad, small and large laptops)
+- Responsive on most devices sizes 1366px width and lower - this includes mobiles, tablets and laptops 
 - Interactive elements (carousel, Google Maps, hover functionality on coach pictures and the GXBC logo in the header)
 
 > ## Technologies Used 
@@ -115,7 +115,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### W3C CSS Validator  
 
 ![CSS Validator Report](/assets/images/rm/css-report.png "CSS Validator")
-	The result of the CSS validator highlighted 2 errors, both of these errors are associated with Bootstrap's CDN. As a result the 
+	The result of the CSS validator highlighted 2 errors, both of these errors are associated with Bootstrap's CDN, which the developer hasn't access to change. 
 
 ### Lighthouse 
 
@@ -127,15 +127,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Gerrards Cross Bowls Club. 
 	
 Upon entering the site, users are automatically greeted with a simple,clear and visual navigation bar to go to the page of their choice. 
-- desktop 
+- Desktop 
 
 ![Gerrards Cross Bowls Landing Page](assets/images/rm/gxbc-screenshot-laptop.png "Gerrards Cross Landing Page")
 
-- tablet
+- Tablet
 
 ![Gerrards Cross Bowls Landing Page](assets/images/rm/gxbc-screenshot-ipad.png "Gerrards Cross Landing Page")
 
-- mobile
+- Mobile
 
 ![Gerrards Cross Bowls Landing Page](assets/images/rm/gxbc-screenshot-iphone.png "Gerrards Cross Landing Page")
 
@@ -344,7 +344,7 @@ Credit goes to the video creators:
 - banzomaikaka for hover functionality code on the coaching section (solution comment on https://www.xspdf.com/help/50382383.html).     
 
 > ### Limitations:
-The developer only had access to a laptop 1366px pixel width, therefore larger screen sizes may display pages differently to how they are intented.
+The developer only had access to a laptop as the largest screen size (1366px pixel width), therefore larger screen sizes may display pages differently to how they are intented.
 
 
 > ### Future Additions:
@@ -361,7 +361,7 @@ Below is the code I had constructed for the icons to these pages in preparation 
         <a href="#"><i class="fa fa-medal" aria-hidden="true"></i><span>| Honours |</span></a>
         </li>
 
-2. Responsive Design for devices at approx.550px and at 280px width will need to be addressed in the future.
+2. Responsive Design for devices larger than 1366px width may need changes made in the future.
 
 ### Other Functionality for future update:
 - Live Score function:
@@ -371,6 +371,6 @@ the knowledge required to make this possible, however I do believe that this is 
 
 - Link with myClubhouse:
 
-Gerrard's Cross Bowls Club have a second site which is aimed at current members and requires credentials to access. On the myClubhouse site members can currently access membership options, submit competition entries & payment for both forementioned. 
-It is the club's wish that the sign in functionality is embedded in the member's section instead of a button which links to the site. Similarly to the Live score function I belive this is a possibility in the future, however at this point in time I haven't the knowledge required
-for this task, however I plan to return in the future once I have this knowledge and add the function to the site. 
+Gerrard's Cross Bowls Club have a second site which is aimed at current members and requires credentials to access. On the myClubhouse site, members can currently access membership options, submit competition entries & pay for both forementioned. 
+It is the club's wish that the sign in functionality is added in the member's section instead of a button which links to the site. Similarly to the Live score function I belive this is a possibility in the future, however at this point in time I haven't the knowledge required
+for this task. 
