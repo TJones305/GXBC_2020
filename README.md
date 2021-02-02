@@ -36,9 +36,11 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 1. Desktop
 
 ![Wireframe Index Desktop](/assets/images/rm/wireframe-index-desktop.bmpr "Wireframe Index Desktop")
+
 2. Tablet
 
 ![Wireframe Index Tablet](/assets/images/rm/wireframe-index-tablet.bmpr "Wireframe Index Tablet")
+
 3. Mobile
 
 ![Wireframe Index Mobile](/assets/images/rm/wireframe-index-mobile.bmpr "Wireframe Index Mobile")
@@ -47,9 +49,11 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 1. Desktop
 
 ![Wireframe News Desktop](/assets/images/rm/wireframe-news-desktop.bmpr "Wireframe News Desktop")
+
 2. Tablet
 
 ![Wireframe News Tablet](/assets/images/rm/wireframe-news-tablet.bmpr "Wireframe News Tablet")
+
 3. Mobile
 
 ![Wireframe News Mobile](/assets/images/rm/wireframe-news-mobile.bmpr "Wireframe News Mobile")
@@ -58,9 +62,11 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 1. Desktop
 
 ![Wireframe Members Desktop](/assets/images/rm/wireframe-members-desktop.bmpr "Wireframe Members Desktop")
+
 2. Tablet
 
 ![Wireframe Members Tablet](/assets/images/rm/wireframe-members-tablet.bmpr "Wireframe Members Tablet")
+
 3. Mobile
 
 ![Wireframe Members Mobile](/assets/images/rm/wireframe-members-mobile.bmpr "Wireframe Members Mobile")
