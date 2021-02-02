@@ -21,7 +21,7 @@
 - As a Current Member, I want to check to see if there is any updated news. 
 - As a Current Member, I want to easily access external links that provide me with additional bowls information.
 
-> Design 
+> ## Design 
 
 ### Colour Scheme 
 The three main colours used are Gerrards Cross dark blue, gold and light blue.
