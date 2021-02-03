@@ -1740,8 +1740,8 @@ margin: 5px 8px;
     }
 
     .footer-sponsor {
-        margin: 0px 20px;
-        padding-left: 50px;
+        margin: 0px 20px 0px 5px;
+        padding-left: 40px;
         width: auto;
     }
 
@@ -1761,7 +1761,7 @@ margin: 5px 8px;
 
     .footer-affiliation {
         margin: 0px 20px;
-        padding: 10px 50px;
+        padding: 10px 40px;
         width: auto;
     }
 
@@ -1788,7 +1788,7 @@ margin: 5px 8px;
     .footer-contact {
         margin: 0px 15px;
         padding: 0px;
-        padding-left:40px;
+        padding-left:30px;
         display: inline;
         text-align: left;
     }
