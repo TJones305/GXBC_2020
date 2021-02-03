@@ -503,6 +503,8 @@ margin: 5px 8px;
   opacity: 1;
 }
 
+/*--- End of credit ---*/
+
 .card-tile {
     font-family: 'Nunito', sans-serif;
 }
@@ -550,6 +552,37 @@ margin: 5px 8px;
 }
 
 /*-------- Media Queries---------*/
+@media (min-width: 1600px) {
+    .carousel-item {
+        margin-left:200px;
+    }
+
+    #footer-container {
+        padding-left: 150px;
+    }
+
+    /*--- members ---*/
+    #myClubhouse {
+        right: 150px;
+    }
+
+    #myClubhouse h3 {
+        margin-left: 10px;
+    }
+
+    #myClubhouse p {
+        margin-left: 10px;
+    }
+
+    #coaching img {
+        width:140px;
+        height: 140px;
+        margin: 10px 45px;
+        padding: 0px;
+    }
+
+}
+
 @media (max-width: 1366px) {
 
     .title-header {
@@ -834,6 +867,61 @@ margin: 5px 8px;
         padding:0px;
     }
 }
+
+@media (max-width: 900px) {
+h4 {
+        font-size: 20px;
+    }
+
+    #footer-container {
+        padding: 60px;
+    }
+
+    .footer-sponsor {
+        margin: 0px 10px;
+        padding-left: 5px;
+        width: 210px;
+    }
+
+    .footer-sponsor a {
+        font-size: 15px;
+    }
+
+    .footer-sponsor img {
+        height: 25px;
+        width: 50px;
+    }
+
+    .footer-affiliation {
+        margin: 0px 10px;
+        width: 270px;
+    }
+
+    .footer-affiliation a{
+        font-size: 15px;
+    }
+
+    .footer-affiliation img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .footer-contact {
+        margin: 0px;
+        padding: 0px;
+        display: inline;
+        text-align: left;
+    }
+
+    .footer-contact-two {
+        margin: 0px 0px;
+        padding: 0px;
+        padding-top: 5px;
+        text-align: center;
+    }
+}
+
+
 @media (max-width: 834px) {
     /*--- index, header and footer---*/
     .gxbc-logo {
