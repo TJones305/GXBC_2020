@@ -1166,7 +1166,7 @@ h4 {
 
     .footer-sponsor {
         margin: 0px 7px;
-        padding-left: 30px;
+        padding-left: 20px;
         width: 210px;
 
     }
@@ -1181,7 +1181,7 @@ h4 {
     }
 
     .footer-affiliation {
-        margin: 0px 25px;
+        margin: 0px 15px;
         width: 270px;
     }
 
@@ -1202,7 +1202,7 @@ h4 {
     }
 
     .footer-contact-two {
-        margin: 0px 5px;
+        margin: 0px;
         padding: 0px;
         padding-top: 5px;
         text-align: center;
