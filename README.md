@@ -2,7 +2,8 @@
 
 ####  A link to site is here: [Gerrards Cross Bowls Club](https://tjones305.github.io/GXBC_2020/) 
 
- **This is the new main website for Gerrards Cross Bowls Club. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential new members be they youthful or of the elder generation.**
+ **This is the new main website for Gerrards Cross Bowls Club. It is designed to be responsive on a range of devices, making it accessible to potential new members of all generations. This site is also designed to act in a basic manner so that current members can access the latest news at a glace, but also go to other sites required, such as county and national pages.** 
+ **This will mean that more sensitive information, as can be found on the exsisting site, can be moved to the members only website at myClubhouse**
 
 > ### User Experience (UX) User stories
 
@@ -23,17 +24,17 @@
 
 > ## Design 
 
-### Colour Scheme 
-The three main colours used are Gerrards Cross dark blue, gold and light blue.
+### **Colour Scheme** 
+The three main colours used are the club colours of Gerrards Cross: dark blue, gold and light blue.
 
-### Typography 
+### **Typography** 
 The Nunito font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Nunito is a modern, crisp and rounded font, which makes it clear to read and is ideal to attract both young and older users.
 
-### Imagery 
+### **Imagery** 
 Imagery is important. The carousel hero image is designed to be the centerpeice and catch the user's attention. It also has a modern, energetic aesthetic.
 
-### Wireframes 
-- Home Page Wireframe
+### **Wireframes** 
+- #### *Home Page Wireframe*
 
 1. Desktop
 
@@ -47,7 +48,7 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 
 ![Wireframe Index Mobile](/assets/images/rm/wireframe-index-mobile.bmpr "Wireframe Index Mobile")
 
-- News Page Wireframe
+- #### *News Page Wireframe*
 
 1. Desktop
 
@@ -61,7 +62,7 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 
 ![Wireframe News Mobile](/assets/images/rm/wireframe-news-mobile.bmpr "Wireframe News Mobile")
 
-- Members Page Wireframe
+- #### *Members Page Wireframe*
 
 1. Desktop
 
@@ -75,17 +76,17 @@ Imagery is important. The carousel hero image is designed to be the centerpeice 
 
 ![Wireframe Members Mobile](/assets/images/rm/wireframe-members-mobile.bmpr "Wireframe Members Mobile")
 
-### Features
+### **Features**
 - Responsive on most devices sizes 1366px width and lower - this includes mobiles, tablets and laptops 
 - Interactive elements (carousel, Google Maps, hover functionality on coach pictures and the GXBC logo in the header)
 
 > ## Technologies Used 
 
-### Languages Used 
+### **Languages Used** 
 HTML5 
 CSS3
 
-### Frameworks, Libraries & Programs Used 
+### **Frameworks, Libraries & Programs Used** 
 
 - Bootstrap 4.4.1: Bootstrap was used to assist with the responsiveness and styling of the website. Specific features include - navbar carousel, containers, carddecks/tiles. 
 
@@ -105,25 +106,25 @@ CSS3
 
 - Balsamiq: Balsamiq was used to create the wireframes during the design process. 
 
-> ### Testing 
+> ## Testing 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-### W3C Markup Validator
+### **W3C Markup Validator**
 
 ![Markup Validator Report](/assets/images/rm/markup-report.png "Markup Validator")
 
-### W3C CSS Validator  
+### **W3C CSS Validator**  
 
 ![CSS Validator Report](/assets/images/rm/css-report.png "CSS Validator")
 	The result of the CSS validator highlighted 2 errors, both of these errors are associated with Bootstrap's CDN, which the developer hasn't access to change. 
 
-### Lighthouse 
+### **Lighthouse** 
 
 ![Lighthouse Report](/assets/images/rm/lighthouse-report.png "Lighthouse Report")
 
 > ## Testing User Stories from User Experience (UX) Section
 
-##  First Time Visitor Goals  
+##  *First Time Visitor Goals*  
 - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Gerrards Cross Bowls Club. 
 	
 Upon entering the site, users are automatically greeted with a simple,clear and visual navigation bar to go to the page of their choice. 
@@ -179,7 +180,7 @@ At the bottom of all pages are the club affiliations so they are easily accessib
 
 ![Gerrards Cross Bowls affiliations](assets/images/rm/gxbc-footer-affiliations.png "Gerrards Cross affiliations")
 
-### Prospective Member Goals 
+### *Prospective Member Goals* 
 
 - As a Prospective Member, I want to find information about coaching, membership and media that would aid my enthusiasm and theorectical knowledge of bowls.
 
@@ -213,7 +214,7 @@ On the member's page in the new member's section there are contact details in bo
 
 On the member's page this is clearly signposted by emphasising the information in bold, along with the contact name (see above image).
 
-### Current Member Goals 
+### *Current Member Goals* 
 
 - As a Current Member, I want to access the current members site at myClubhouse from the main site.
  
@@ -264,16 +265,16 @@ Each affiliation link opens in a new tab:
 
 ![Gerrards Cross Bowls affiliations](assets/images/rm/affiliations-lscba.png "Gerrards Cross London and Southern Counties Bowls Association")
 
-## Further Testing 
+## **Further Testing** 
 - The Website was tested on Google Chrome, Microsoft Edge and Safari browsers. 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPad Air & iPhoneX. other devices were tested through the inspect web developer tools.
 
-##  Known Bugs 
-On mobile devices with screen width of 280 pixels the current members button slightly covers over the h2 element as the screen squashes together.
+##  **Known Bugs** 
+On mobile devices with screen width of 280 pixels the current members button slightly covers over the h2 element as the screen squashes together. This has now been amended by creating a media query for the screen width.
 
 > ## Deployment 
 
-### GitHub Pages  
+### **GitHub Pages**  
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository 
@@ -283,21 +284,21 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh. 
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section. 
 
-### Forking the GitHub Repository 
+### **Forking the GitHub Repository** 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository 
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-### Making a Local Clone  
+### **Making a Local Clone**  
 1. Log in to GitHub and locate the GitHub Repository Under the repository name, click "Clone or download". 
 2. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link. 
 3. Open Git Bash Change the current working directory to the location where you want the cloned directory to be made. 
 4. Type git clone, and then paste the URL you copied in Step 3. $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY Press Enter. 
 5. Your local clone will be created. $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-Cloning into CI-Clone... remote: Counting objects: 10, done. remote: Compressing objects: 100% (8/8), done. remove: Total 10 (delta 1), reused 10 (delta 1) Unpacking objects: 100% (10/10), done. Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+Example: Cloning into CI-Clone... remote: Counting objects: 10, done. remote: Compressing objects: 100% (8/8), done. remove: Total 10 (delta 1), reused 10 (delta 1) Unpacking objects: 100% (10/10), done.
 
 
 > ### Credits  
@@ -306,9 +307,9 @@ Cloning into CI-Clone... remote: Counting objects: 10, done. remote: Compressing
 
 - MDN Web Docs : For Pattern Validation code. Code was modified to better fit my needs.
 
-- Content: All content was written by the developer. For a small section of code (hover fucitionality) there is credit given in the acknowledgements section.
+- Content: All content was written by the developer. For a small section of code (hover fucitionality) there is credit given in the acknowledgements section and in the code itself.
 
-#### Media Images came from a variety of sources. 
+#### *Media Images came from a variety of sources* 
 Credit goes to the following:
 
 - Gerrards Cross Bowls Club - pictures for carousel and coaches
@@ -317,7 +318,7 @@ Credit goes to the following:
 - Liberal Democrats - COVID-19 safety picture on news page.
 
 
-#### Card Deck images can be found at the following:
+#### *Card Deck images can be found at the following:*
 - Introduction - <https://ied.eu/project-updates/beginning-critical-fo-in-company/>
 - Delivery - <http://www.elthambowlingclub.co.uk/shared/attachments.asp?f=d61771fd%2D3929%2D4ca%2D8e05%2D26c61e66cc0f%2Epdf&o=Bowls%5Fbiomechanics%2D%2D%2DRob%2DJudson%2Epdf>
 - Common Faults - <https://www.shareicon.net/fault-problem-error-cancel-exit-danger-alert-107468>
@@ -329,7 +330,7 @@ Credit goes to the following:
 - Conclusion - <https://www.word-nerds.com.au/speech-writing-tips/>
 
 
-#### Video links were embedded from Youtube 
+#### *Video links were embedded from Youtube* 
 Credit goes to the video creators:
 - Bowls Manawantu 
 - Canadian Bowls Association
@@ -341,10 +342,10 @@ Credit goes to the video creators:
 
 - WS3 Schools for assistance in applying Google Maps.
 
-- banzomaikaka for hover functionality code on the coaching section (solution comment on https://www.xspdf.com/help/50382383.html).     
+- banzomaikaka for hover functionality code on the coaching section (solution comment on https://www.xspdf.com/help/50382383.html). This is also credited in the code.    
 
 > ### Limitations:
-The developer only had access to a laptop as the largest screen size (1366px pixel width), therefore larger screen sizes may display pages differently to how they are intented.
+The developer only had access to a PC monitor of 1600px pixel width as the largest screen size, therefore larger screen sizes may display pages differently to how they are intented.
 
 
 > ### Future Additions:
@@ -361,9 +362,9 @@ Below is the code I had constructed for the icons to these pages in preparation 
         <a href="#"><i class="fa fa-medal" aria-hidden="true"></i><span>| Honours |</span></a>
         </li>
 
-2. Responsive Design for devices larger than 1366px width may need changes made in the future.
+2. Responsive Design for devices larger than 1600px width may need changes made in the future.
 
-### Other Functionality for future update:
+### **Other Functionality for future update:**
 - Live Score function:
 
 A request from Gerrard's Cross Bowls Club was to have a function where they could add the score of a group of matches and it update on the index page of the site as a breaking news story. I felt that while it would be a useful feature, I don't currently have 
