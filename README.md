@@ -297,8 +297,8 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 1. Log in to GitHub and locate the GitHub Repository Under the repository name, click "Clone or download". 
 2. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link. 
 3. Open Git Bash Change the current working directory to the location where you want the cloned directory to be made. 
-4. Type git clone, and then paste the URL you copied in Step 3. $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY Press Enter. 
-5. Your local clone will be created. $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+4. Type git clone, and then paste the URL you copied in Step 3. $ git clone https://github.com//TJones305/GXBC_2020 Press Enter. 
+5. Your local clone will be created. $ git clone https://github.com//TJones305/GXBC_2020
 
 Example: Cloning into CI-Clone... remote: Counting objects: 10, done. remote: Compressing objects: 100% (8/8), done. remove: Total 10 (delta 1), reused 10 (delta 1) Unpacking objects: 100% (10/10), done.
 
