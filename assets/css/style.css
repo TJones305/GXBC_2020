@@ -1,3 +1,8 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 /*-------------------- Header --*/
 .heading {
     padding: 5px 20px 5px 20px;
@@ -8,6 +13,7 @@
     margin:0px 0px 1px 0px;
 }
 
+/*--sizes and positions club badges in header--*/
 .gxbc-logo {
     max-height: 125px;
     max-width: 125px;
@@ -21,6 +27,7 @@
 
 }
 
+/*--sizes and styles title--*/
 .title-header {
     font-family: 'Nunito', sans-serif;   
     font-weight: 100;
@@ -33,7 +40,7 @@
     margin: 0px 40px 0px 70px;
 }
 
-
+/*--start of Nav bar styling--*/
 .menubar-color {
      background-color: #030233;
      padding: 0px;
@@ -90,7 +97,7 @@
     border: 0px;
 }
 
-/*moves the menubar location*/
+/*--moves the menubar location--*/
 .list-inline {
     padding-left: 275px;
     margin: 0px;
@@ -99,16 +106,18 @@
 
 .list-inline-item:not(:last-child) {
     margin: 0;
-}
+} 
 
 .col {
     border:0px;
-}
+} /*--end of nav bar styling--*/
 
 /*----------------------index.html---*/
 body {
     background-color: #030233;
 }
+
+/*--start of carousel styling--*/
 .carousel {
   margin-bottom: 0;
   margin-top: 0;
@@ -143,9 +152,9 @@ body {
   min-width: 100%;
   height: 40rem;
   margin: 0 auto;
-}
+} /*--end of carousel styling--*/
 
-
+/*--changes club summary on landing page--*/
 .club-summary {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
@@ -174,6 +183,7 @@ body {
     color: #946b03;
 }
 
+/*--targets Google Maps**/
 #googleMap {
     padding-top: 0;
     margin-top: 0;
@@ -202,6 +212,7 @@ h6 {
     font-weight:bold
 }
 
+/*--start of sponsors styling--*/
 .footer-sponsor {
     text-align: left;
     display: inline;
@@ -214,6 +225,15 @@ h6 {
     color:#ad850d;
 }
 
+.footer-sponsor img {
+    height: 35px;
+    width: 60px;
+    margin: 3px 5px;
+    display: inline;
+    border-radius: 25%;
+}
+
+/*--start of affiliation styling--*/
 .footer-affiliation {
     text-align: left;
     display: inline;
@@ -224,6 +244,14 @@ h6 {
     color: #ad850d;
 }
 
+.footer-affiliation img{
+    height: 45px;
+    width: 45px;
+    margin: 3px 5px;
+    display: inline;
+}
+
+/*--start of contact us styling--*/
 .footer-contact {
     text-align: left;
     display: inline-flex;
@@ -245,28 +273,14 @@ h6 {
     column-count: 1;
 }
 
-
-.footer-sponsor img {
-    height: 35px;
-    width: 60px;
-    margin: 3px 5px;
-    display: inline;
-    border-radius: 25%;
-}
-
-.footer-affiliation img{
-    height: 45px;
-    width: 45px;
-    margin: 3px 5px;
-    display: inline;
-}
-
 .footer-contact p {
     max-height: 150px;
     width: 250px;
     text-align: center;
     font-size: 15px;
 }
+
+/*--controls whole fooer container--*/
 #footer-container {
     padding-left: 75px;
     width:100%;
@@ -280,6 +294,7 @@ h6 i {
 }
 
 /*----------- news.html----*/
+/*--styles key below Nav Bar--*/
 .container-key h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: bolder;
@@ -294,7 +309,7 @@ h6 i {
     padding-left: 3px;
     color: #ad850d;
     font-weight: bold;
-}
+} /*end of key styling*/
 
 .container {
     padding:0;
@@ -302,6 +317,7 @@ h6 i {
     border: 0;
 }
 
+/*-- styles Competition, Social and Members news containers --*/
 .container-news {
     font-family: 'Nunito', sans-serif;
     border-style:solid;
@@ -347,13 +363,15 @@ max-width: 20%;
 max-height: 200px;
 vertical-align: top;
 border-radius: 50%;
-}
+} /*-- end of container styling --*/
 
+/*-- targets bucks county logo so it appears centered with other images--*/
 .bucks {
     margin-left: 30px;
 }
 
 /*----------- members.html----*/
+/*-- styles current member section to right of page --*/
 #myClubhouse {
     font-family: 'Nunito', sans-serif;
     height: 500px;
@@ -388,9 +406,9 @@ border-radius: 50%;
     height: 200px;
     width: 200px;
     margin: 50px 20px;
-    
-}
+} /*-- end of current member section*/
 
+/*-- start of new member section (left of page)--*/
 #new_member {
     font-family: 'Nunito', sans-serif;
     height: 500px;
@@ -431,7 +449,9 @@ margin: 5px 8px;
 
 #new_member .row{
     display: inline-block;
-}
+} /*--end of new member section--*/
+
+/*-- start of coaching section styling--*/
 #coaching {
     font-family: 'Nunito', sans-serif;
     height: 450px;
@@ -452,11 +472,11 @@ margin: 5px 8px;
     left: 40px;
 }
 
+/*-- targets coaching images --*/
 #coaching img {
     width:125px;
     height: 125px;
     margin: 10px 40px;
-
 }
 
 #coaching div {
@@ -464,12 +484,13 @@ margin: 5px 8px;
     margin: 5px 40px;
 }
 
-
+/*--targets upper 4 images--*/
 .coach-set {
     position: relative;
     margin:0px;
 }
 
+/*--targets lower 4 images--*/
 .coach-set-two {
     position: relative;
     margin: 0px;
@@ -502,9 +523,9 @@ margin: 5px 8px;
   visibility: visible;
   opacity: 1;
 }
-
 /*--- End of credit ---*/
 
+/*-- Card Decks for coaching media - credit to Bootstrap--*/
 .card-tile {
     font-family: 'Nunito', sans-serif;
 }
@@ -523,6 +544,7 @@ margin: 5px 8px;
     margin: 5px 0px;
 }
 
+/*--targets video buttons*/
 .btn {
     font-family: 'Nunito', sans-serif;
     vertical-align:baseline ;
@@ -546,6 +568,8 @@ margin: 5px 8px;
     color: #030233;
     background-color: #a5e6f5;
 }
+
+/*-- targets image at top of card deck --*/
 .card-img-top {
     width:auto;
     height: 180px;
@@ -1304,7 +1328,7 @@ margin: 5px 8px;
 
     .list-inline {
     padding-left: 55px;
-}
+    }
 
     .carousel-item {
         height: 15rem;
@@ -1516,14 +1540,14 @@ margin: 5px 8px;
         width:100%;
     }
 
-       .card-img-top {
+    .card-img-top {
     width:auto;
     height: 180px;
     }
 }
 
 @media (max-width: 550px) {
- .gxbc-logo {
+    .gxbc-logo {
         height: 33px;
         width: 33px;
         padding: 0px;
@@ -1771,8 +1795,7 @@ margin: 5px 8px;
 
 @media (max-width: 415px) {
 /*--- header ---*/
-
- .gxbc-logo {
+    .gxbc-logo {
         height: 33px;
         width: 33px;
         padding: 0px;
@@ -1896,14 +1919,15 @@ margin: 5px 8px;
 
     /*--- members ---*/
 
+    /*-- reduced to a small banner to right of new members info--*/
     #myClubhouse {
         display: block;
         text-align:left;
         height: 120px;
         width:125px;
         right: 19px;
-
     }
+    
     #myClubhouse .btn {
         display: block;
         position: relative;
@@ -1921,12 +1945,13 @@ margin: 5px 8px;
         margin-bottom: 10px;
     }
 
+    /*-- removes paragrapgh and allows button to jump above it--*/
     #myClubhouse p {
         margin-left: 10px;
         visibility: collapse;
         position: absolute;
     }
-
+    /*--removes image for this screen width and smaller--*/
     #myClubhouse img{
         visibility: collapse;
     }
@@ -2023,7 +2048,6 @@ margin: 5px 8px;
 
 @media (max-width: 360px) {
 /*--- header ---*/
-
     .gxbc-logo {
         height: 33px;
         width: 33px;

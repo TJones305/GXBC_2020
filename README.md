@@ -5,7 +5,7 @@
  **This is the new main website for Gerrards Cross Bowls Club. It is designed to be responsive on a range of devices, making it accessible to potential new members of all generations. This site is also designed to act in a basic manner so that current members can access the latest news at a glace, but also go to other sites required, such as county and national pages.** 
  **This will mean that more sensitive information, as can be found on the exsisting site, can be moved to the members only website at myClubhouse**
 
-> ### User Experience (UX) User stories
+## User Experience (UX) User stories
 
 ### First Time Visitor Goals 
 - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Gerrards Cross Bowls Club. 
@@ -22,7 +22,7 @@
 - As a Current Member, I want to check to see if there is any updated news. 
 - As a Current Member, I want to easily access external links that provide me with additional bowls information.
 
-> ## Design 
+## Design 
 
 ### **Colour Scheme** 
 The three main colours used are the club colours of Gerrards Cross: dark blue, gold and light blue.
@@ -270,7 +270,9 @@ Each affiliation link opens in a new tab:
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPad Air & iPhoneX. other devices were tested through the inspect web developer tools.
 
 ##  **Known Bugs** 
-On mobile devices with screen width of 280 pixels the current members button slightly covers over the h2 element as the screen squashes together. This has now been amended by creating a media query for the screen width.
+- On mobile devices with screen width of 280 pixels the current members button slightly covers over the h2 element as the screen squashes together. This has now been amended by creating a media query for the screen width.
+- On mobile devices, when in potrait orientation, the address of the contact us section appears shifted to start under the colon above. This was left intentionally as in trying to align the text with the sponsor
+ and affiliations sections above, the text would appear distorted, therefore it was decided by the developer that the centered alignment in CSS appeared visually neater although different to the alignment above.  
 
 > ## Deployment 
 
