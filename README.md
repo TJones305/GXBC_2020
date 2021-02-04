@@ -34,47 +34,48 @@ The Nunito font is the main font used throughout the whole website with Sans Ser
 Imagery is important. The carousel hero image is designed to be the centerpeice and catch the user's attention. It also has a modern, energetic aesthetic.
 
 ### **Wireframes** 
+
 - #### *Home Page Wireframe*
 
 1. Desktop
 
-![Wireframe Index Desktop](/assets/images/rm/wireframe-index-desktop.bmpr "Wireframe Index Desktop")
+![Wireframe Index Desktop](/assets/images/rm/wireframe-index-desktop.pdf "Wireframe Index Desktop")
 
 2. Tablet
 
-![Wireframe Index Tablet](/assets/images/rm/wireframe-index-tablet.bmpr "Wireframe Index Tablet")
+![Wireframe Index Tablet](/assets/images/rm/wireframe-index-tablet.pdf "Wireframe Index Tablet")
 
 3. Mobile
 
-![Wireframe Index Mobile](/assets/images/rm/wireframe-index-mobile.bmpr "Wireframe Index Mobile")
+![Wireframe Index Mobile](/assets/images/rm/wireframe-index-mobile.pdf "Wireframe Index Mobile")
 
 - #### *News Page Wireframe*
 
 1. Desktop
 
-![Wireframe News Desktop](/assets/images/rm/wireframe-news-desktop.bmpr "Wireframe News Desktop")
+![Wireframe News Desktop](/assets/images/rm/wireframe-news-desktop.pdf "Wireframe News Desktop")
 
 2. Tablet
 
-![Wireframe News Tablet](/assets/images/rm/wireframe-news-tablet.bmpr "Wireframe News Tablet")
+![Wireframe News Tablet](/assets/images/rm/wireframe-news-tablet.pdf "Wireframe News Tablet")
 
 3. Mobile
 
-![Wireframe News Mobile](/assets/images/rm/wireframe-news-mobile.bmpr "Wireframe News Mobile")
+![Wireframe News Mobile](/assets/images/rm/wireframe-news-mobile.pdf "Wireframe News Mobile")
 
 - #### *Members Page Wireframe*
 
 1. Desktop
 
-![Wireframe Members Desktop](/assets/images/rm/wireframe-members-desktop.bmpr "Wireframe Members Desktop")
+![Wireframe Members Desktop](/assets/images/rm/wireframe-members-desktop.pdf "Wireframe Members Desktop")
 
 2. Tablet
 
-![Wireframe Members Tablet](/assets/images/rm/wireframe-members-tablet.bmpr "Wireframe Members Tablet")
+![Wireframe Members Tablet](/assets/images/rm/wireframe-members-tablet.pdf "Wireframe Members Tablet")
 
 3. Mobile
 
-![Wireframe Members Mobile](/assets/images/rm/wireframe-members-mobile.bmpr "Wireframe Members Mobile")
+![Wireframe Members Mobile](/assets/images/rm/wireframe-members-mobile.pdf "Wireframe Members Mobile")
 
 ### **Features**
 - Responsive on most devices sizes 1366px width and lower - this includes mobiles, tablets and laptops 
